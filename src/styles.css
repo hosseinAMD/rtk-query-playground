@@ -13,3 +13,30 @@ body {
 .postItem > h4 {
   text-transform: capitalize;
 }
+
+.postForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.postForm > form {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  border-radius: 8px;
+  margin: 16px 0;
+  padding: 8px;
+}
+
+input {
+  border-radius: 8px;
+  margin: 16px 0;
+  padding: 6px;
+}
+
+textarea {
+  border-radius: 8px;
+  padding: 6px;
+}
